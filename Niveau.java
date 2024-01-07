@@ -24,7 +24,7 @@ public class Niveau {
         heading2.setForeground(new Color(30, 144, 254));
 
         // bouton Facile
-        JButton facileButton = new JButton("Facile");
+        JButton facileButton = new JButton("Easy");
         facileButton.setBackground(new Color(30, 144, 254));
         facileButton.setForeground(Color.WHITE);
         facileButton.setFocusPainted(false);
@@ -38,7 +38,7 @@ public class Niveau {
         });
 
         // Bouton Moyen
-        JButton moyenButton = new JButton("Moyen");
+        JButton moyenButton = new JButton("Medium");
         moyenButton.setBackground(new Color(30, 144, 254));
         moyenButton.setForeground(Color.WHITE);
         moyenButton.setFocusPainted(false);
@@ -52,7 +52,7 @@ public class Niveau {
         });
 
         // Bouton Dificile
-        JButton difficileButton = new JButton("Difficile");
+        JButton difficileButton = new JButton("Hard");
         difficileButton.setBackground(new Color(30, 144, 254));
         difficileButton.setForeground(Color.WHITE);
         difficileButton.setFocusPainted(false);
