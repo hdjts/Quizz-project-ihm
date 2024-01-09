@@ -108,6 +108,7 @@ public class GeoQuizSwing extends JFrame {
 
         answerButtons = new JButton[4];
         JPanel answerPanel = new JPanel(new GridLayout(2, 2, 10, 10));
+        answerPanel.setBackground(new Color(190, 227, 247));
         for (int i = 0; i < 4; i++) {
             answerButtons[i] = new JButton();
             answerButtons[i].setFont(new Font("Arial", Font.PLAIN, 18));
